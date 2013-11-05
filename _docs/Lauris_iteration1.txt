@@ -1,0 +1,37 @@
+This is what I think it would be good if you look into next:
+
+ - Replacing the ugly green background in "game launcher" with a real background
+ - Replacing the "black box" on that green background that says "pig" with another clickable object that looks like something that might be used in game
+
+Now in order to fix those things, there are some basic things you need to learn in regards to flash.
+
+----------------------------------
+	General stuff
+----------------------------------
+- Don't worry about destroying things, everything is saved and backed up
+- If you need to return to the original version of a file, right click on it and press 'revert' (this is what versioning systems are all about)
+- I strongly suggest you start with changing your flash-layout to "Designer" (Window/workspace/Designer)
+- When you want to test what the application looks like right now just press "ctrl + enter" inside Flash to compile everything and then launch the application.
+
+----------------------------------
+	Green background
+----------------------------------
+Inside the fla-folder you will find Borbela.fla
+In that fla-file you will find a movieclip "GameContainer" in Library
+
+- You need to get your picture into this fla-file and place it on stage where the green thing used to be
+- Flash knows from where you import a file, so probably wise to have the iamge file in correct place from the beginning
+
+----------------------------------
+	Black boxes
+----------------------------------
+Borbela.fla/GameContainer
+
+- replace the black boxes and the text with something appropriate
+- whatever you place there needs to be inside a movieclip named "pig" (as it is now) in order to not break navigation (from code I'm listening to clicks on that movieclip to launch the actual pig-game).
+
+-----------------------------------
+
+Best of luck and just click around in flash and try to understand how it works and see what happens when you change stuff! :)
+
+And, dont worry about breaking stuff^^
